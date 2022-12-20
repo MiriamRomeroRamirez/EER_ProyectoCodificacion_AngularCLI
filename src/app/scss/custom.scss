@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Exo&family=Odibee+Sans&display=swap');
+//font-family: 'Exo', sans-serif;
+//font-family: 'Odibee Sans', cursive;
+
+$font-family-base: 'Exo', sans-serif; 
+$primary:#00822F;  
+$success:#12B300;
+
+
+
+$enable-negative-margins: true;
+@import "../node_modules/bootstrap/scss/bootstrap";
+
+header{
+    background-image:url('https://i.pinimg.com/564x/aa/dc/a9/aadca9aa7e599af77fdfb66ef0097fbc.jpg') ;
+    height: 200px;
+    background-size: cover;
+    background-position: center;
+    
+}
+
+@include media-breakpoint-up(md){
+    header{
+        height: 400px;
+    }
+}
+
